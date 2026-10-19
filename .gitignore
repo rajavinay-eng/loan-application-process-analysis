@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Data (never commit)
+data/
+*.xes
+*.xes.gz
+*.csv
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# Power BI (large files; decide later)
+*.pbix
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
